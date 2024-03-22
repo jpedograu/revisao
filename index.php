@@ -9,10 +9,11 @@
 
 <body>
     <div class="container">
-        <div class="coluna">
-            <div class="linha">
+        <div class="row">
+            <div class="col">
                 <h1> cadraste-se</h1>
-                <form>
+                <form action="form.php" method="post">
+                    
                     <div class="mb-3">
                         <label for="nome" class="form-label">nome completo</label>
                         <input type="text" class="form-control" name="nome">
